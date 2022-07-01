@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(147, 146, 146);
+}
+
+.buffer {
+    height: 8rem;
+    width: fit-content;
+}
+
+hr {
+    background-color: rgb(237, 93, 40);
+    height: 4px;
+    width: 75px;
+    border-radius: 300px;
+    transition: 1s;
+    justify-content: center;
+}
+
+hr:hover {
+        transform: scale(1.1);
+        border-radius: 300px;
+        height: 6px;
+}
+
+.btn {
+    color: rgb(19, 19, 19);
+    background-color: rgb(237, 93, 40);
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    transition: 1s;
+}
+
+.btn:hover {
+    border-radius: 300px;
+    transform: scale(1.1);
+}
